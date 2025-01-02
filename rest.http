@@ -1,0 +1,25 @@
+# POST http://127.0.0.1:8000/api/vote/create-user
+
+# Content-Type: application/json
+# {
+#     "first_name": "king",
+#     "last_name": "long",
+#     "phone": "1234567890",
+#     "email": "rolandjephtha730@gmail.com",
+#     "matricnum": "MAT1234567",
+#     "department": "Computer Science",
+#     "country": "USA",
+#     "date_of_birth": "1990-01-01",
+#     "gender": "Male"
+# }
+
+
+
+POST http://127.0.0.1:8000/api/vote/login/
+
+Content-Type: application/json
+
+{
+    "voters_id": "RVBKN3MZIRX"
+}
+
